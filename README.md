@@ -13,7 +13,7 @@ Beside of the features that we have mentioned above, this application also has s
 The application that we made at the moment is still in the process of development but has very good progress and will be available soon,if we are passed to the next stage we are sure that the application we made must have been very good and very ready to use. 
 
 # Youtube link
-[![CleArt Project](https://img.youtube.com/vi/UUdPUGJ7NmU/hqdefault.jpg)](https://www.youtube.com/watch?v=tjykKVBPvw&feature=youtu.be "CleArt Project - IEEE MADC 2018")
+[![CleArt Project](https://img.youtube.com/vi/UUdPUGJ7NmU/hqdefault.jpg)](https://youtu.be/UUdPUGJ7NmU)
 
 # Table
 |App File Name| Team Name  |Short Description                                                                                                                       | License | Country   | Author's                                                         |
