@@ -13,11 +13,10 @@ Beside of the features that we have mentioned above, this application also has s
 The application that we made at the moment is still in the process of development but has very good progress and will be available soon,if we are passed to the next stage we are sure that the application we made must have been very good and very ready to use. 
 
 # Youtube link
-[![CleArt Project](https://img.youtube.com/vi/UOxSg4YpfB0/0.jpg)](https://www.youtube.com/watch?v=UOxSg4YpfB0&feature=youtu.be "IEEE MADC 2018 - CleArt Promo Video")
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/UOxSg4YpfB0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![CleArt Project](https://img.youtube.com/vi/tjykKVBPvw/0.jpg)](https://www.youtube.com/watch?v=tjykKVBPvw&feature=youtu.be "CleArt Project - IEEE MADC 2018")
 
 # Table
 |App File Name| Team Name  |Short Description                                                                                                                       | License | Country   | Author's                                                         |
 | :---------: | :--------: | :------------------------------------------------------------------------------------------------------------------------------------: | :-----: | :-------: | :--------------------------------------------------------------- |
-| CleArt      | tekkom2016 | CleArt is android based application that can be used by user to give a cleanliness rating,report and review to the tourist attraction. | mit     | Indonesia | [Krisnanda, DP. Nala](https://github.com/pascalisnala "Nala's Github Profile"); [Surya, Frenzel Timothy](https://github.com/frenzelts "Frenzel's Github Profile"); [Saputra, Reja Aji](https://github.com/rejakovren "Reja's Github Profile") |
+| [CleArt](Source Code/Executable)      | tekkom2016 | CleArt is android based application that can be used by user to give a cleanliness rating,report and review to the tourist attraction. | mit     | Indonesia | [Krisnanda, DP. Nala](https://github.com/pascalisnala "Nala's Github Profile"); [Surya, Frenzel Timothy](https://github.com/frenzelts "Frenzel's Github Profile"); [Saputra, Reja Aji](https://github.com/rejakovren "Reja's Github Profile") |
 
