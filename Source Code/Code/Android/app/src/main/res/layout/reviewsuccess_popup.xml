@@ -56,7 +56,7 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
                     android:layout_marginBottom="30dp"
-                    android:text="Your Review \nHas been Added"
+                    android:text="Your review has been added!"
                     android:textAlignment="center"
                     android:textColor="@color/textcolor"
                     android:textSize="20sp"
@@ -69,7 +69,7 @@
                     android:layout_marginRight="20dp"
                     android:layout_marginBottom="30dp"
                     android:gravity="center"
-                    android:text="Thank You"
+                    android:text="Please move to another screen and go back to refresh"
                     android:textAlignment="center"
                     android:textColor="@color/textcolor" />
 

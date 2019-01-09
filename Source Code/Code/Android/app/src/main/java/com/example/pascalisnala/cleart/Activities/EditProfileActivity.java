@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.pascalisnala.cleart.API.retrofitClient;
@@ -19,7 +20,8 @@ import retrofit2.Response;
 
 public class EditProfileActivity extends AppCompatActivity {
 
-    EditText nameET,usernameET,useremailET,usernumberET;
+    EditText nameET,useremailET,usernumberET;
+    TextView usernameET;
     Button btnsave;
 
     @Override
@@ -71,12 +73,6 @@ public class EditProfileActivity extends AppCompatActivity {
         if (name.isEmpty()) {
             nameET.setError("Name Field Required");
             nameET.requestFocus();
-            return;
-        }
-
-        if (username.isEmpty()) {
-            usernameET.setError("Username Field Required");
-            usernameET.requestFocus();
             return;
         }
 
