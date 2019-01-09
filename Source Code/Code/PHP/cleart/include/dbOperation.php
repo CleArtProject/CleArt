@@ -299,9 +299,7 @@
             $stmt = $this->con->prepare("select * FROM attr_detail_category left JOIN rating using (attrid) where attrname like '%?%' or location like '%?%'");
             $stmt->bind_param("ss", $key, $key);
             $stmt->execute();
-            $stmt->store_result();
             $stmt->bind_result($attrid,$attrname,$location,$details,$schedule,$category,$rating);
-            $response_data = array();
     
             $data=array();
             while($stmt->fetch()){    
@@ -313,8 +311,6 @@
                 $tmp['schedule']=$schedule;
                 $tmp['category']=$category;
                 $tmp['rating']=$rating;
-                $data_cat = $db->getFacilityByAttrID($attrid);
-                $tmp['facility']=$data_cat;
                 array_push($data,$tmp);
             }
             return $data;

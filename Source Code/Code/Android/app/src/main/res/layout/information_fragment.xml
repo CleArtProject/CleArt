@@ -106,65 +106,6 @@
                 app:layout_constraintTop_toBottomOf="@+id/containAddress"
                 app:layout_constraintVertical_bias="0.0" />
 
-            <android.support.v7.widget.CardView
-                android:id="@+id/cardBookmark"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="26dp"
-                android:clickable="true"
-                android:nestedScrollingEnabled="false"
-                app:cardBackgroundColor="@color/pagebg"
-                app:cardCornerRadius="5dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/cardShare"
-                app:layout_constraintStart_toEndOf="@+id/cardReport"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.0">
-
-                <android.support.constraint.ConstraintLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/pagebg"
-                    android:nestedScrollingEnabled="false">
-
-                    <ImageView
-                        android:id="@+id/imageView5"
-                        android:layout_width="32dp"
-                        android:layout_height="32dp"
-                        android:layout_marginTop="9dp"
-                        android:src="@drawable/bookmark"
-                        app:layout_constraintBottom_toTopOf="@+id/textBookmark"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                    <TextView
-                        android:id="@+id/textBookmark"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="4dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginRight="8dp"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginTop="32dp"
-                        android:nestedScrollingEnabled="false"
-                        android:text="Bookmark"
-                        android:textColor="@color/textcolor"
-                        android:textSize="10dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                </android.support.constraint.ConstraintLayout>
-            </android.support.v7.widget.CardView>
-
             <TextView
                 android:id="@+id/Call"
                 android:layout_width="wrap_content"
@@ -210,9 +151,9 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginBottom="8dp"
-                android:layout_marginEnd="8dp"
+                android:layout_marginEnd="32dp"
                 android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
+                android:layout_marginRight="32dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="26dp"
                 android:clickable="true"
@@ -220,7 +161,7 @@
                 app:cardBackgroundColor="@color/pagebg"
                 app:cardCornerRadius="5dp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/cardBookmark"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/cardReview"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0">
@@ -240,11 +181,11 @@
                         android:layout_marginRight="8dp"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
+                        android:src="@drawable/report"
                         app:layout_constraintBottom_toTopOf="@+id/textReport"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        android:src="@drawable/report"/>
+                        app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
                         android:id="@+id/textReport"
@@ -258,66 +199,6 @@
                         android:layout_marginTop="32dp"
                         android:nestedScrollingEnabled="false"
                         android:text="Report"
-                        android:textColor="@color/textcolor"
-                        android:textSize="10dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
-                </android.support.constraint.ConstraintLayout>
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-
-                android:id="@+id/cardShare"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginEnd="50dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="50dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="26dp"
-                android:clickable="true"
-                android:nestedScrollingEnabled="false"
-                app:cardBackgroundColor="@color/pagebg"
-                app:cardCornerRadius="5dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/cardBookmark"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.0">
-
-                <android.support.constraint.ConstraintLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/pagebg"
-                    android:nestedScrollingEnabled="false">
-
-                    <ImageView
-                        android:id="@+id/imageView4"
-                        android:layout_width="20dp"
-                        android:layout_height="20dp"
-                        android:layout_marginTop="8dp"
-                        app:layout_constraintBottom_toTopOf="@+id/textShare"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        android:src="@drawable/share"/>
-
-                    <TextView
-                        android:id="@+id/textShare"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="4dp"
-                        android:layout_marginEnd="8dp"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginRight="8dp"
-                        android:layout_marginStart="8dp"
-                        android:layout_marginTop="32dp"
-                        android:nestedScrollingEnabled="false"
-                        android:text="Share"
                         android:textColor="@color/textcolor"
                         android:textSize="10dp"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -374,9 +255,9 @@
                 android:layout_height="50dp"
                 android:layout_marginBottom="8dp"
                 android:layout_marginEnd="8dp"
-                android:layout_marginLeft="50dp"
+                android:layout_marginLeft="32dp"
                 android:layout_marginRight="8dp"
-                android:layout_marginStart="50dp"
+                android:layout_marginStart="32dp"
                 android:layout_marginTop="26dp"
                 android:clickable="true"
                 android:nestedScrollingEnabled="false"
@@ -400,11 +281,11 @@
                         android:layout_width="22dp"
                         android:layout_height="22dp"
                         android:layout_marginTop="8dp"
+                        android:src="@drawable/rate"
                         app:layout_constraintBottom_toTopOf="@+id/Review"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        android:src="@drawable/rate"/>
+                        app:layout_constraintTop_toTopOf="parent" />
 
                     <TextView
                         android:id="@+id/Review"

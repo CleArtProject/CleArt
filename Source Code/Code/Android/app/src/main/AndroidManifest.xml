@@ -14,7 +14,6 @@
         <activity android:name=".Activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -23,7 +22,8 @@
         <activity android:name=".Activities.DetailActivity" />
         <activity android:name=".Activities.ReportActivity" />
         <activity android:name=".Activities.ReviewActivity" />
-        <activity android:name=".Activities.SearchActivity" >
+        <activity android:name=".Activities.SearchActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH"/>
             </intent-filter>

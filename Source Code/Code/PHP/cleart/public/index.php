@@ -376,7 +376,7 @@ $app->post('/loaduserreport', function(Request $request, Response $response){
     } 
 });
 
-$app->get('/attrsearch', function(Request $request, Response $response){
+$app->post('/attrsearch', function(Request $request, Response $response){
     $request_data = $request->getParsedBody();
     if(!isset($request_data['key'])||strlen($request_data['key'])<=0){
         $db = new DbOperation;

@@ -71,7 +71,7 @@ public interface API {
             @Field("attrid") Integer attrid
     );
 
-    @GET("attrsearch")
+    @POST("attrsearch")
     Call <List<Attraction>> attrSearch(@Query("key")String keyword);
 
     @FormUrlEncoded
