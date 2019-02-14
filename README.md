@@ -10,7 +10,7 @@ This application can help any kind of tourist attraction to gain visitors, becau
 
 Besides the features that we have mentioned above, this application also has several additional features such as address information, categories and attractions schedule of tourist attractions, this features can make user/visitor to find out information about the tourist attraction. This application also have login and edit profile features.
 
-At the moment this project is still being developed but has very good progress and will be available soon.
+This project is still being developed. At the moment our team is on a break but we will continue this project soon and will be available later this year.
 
 # Youtube link
 [![CleArt Project](https://img.youtube.com/vi/UUdPUGJ7NmU/hqdefault.jpg)](https://youtu.be/UUdPUGJ7NmU)
