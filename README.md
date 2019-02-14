@@ -1,5 +1,5 @@
 # CleArt
-CleArt is an android based application that can be used by user to give a cleanliness rating, report and review to the tourist attraction.
+CleArt is an Android-based application that can be used by user to give cleanliness ratings, reports, and reviews to tourist attractions.
 
 # Description
 CleArt is an android based application that can be used by user to give a cleanliness rating, report and review to the tourist attraction. As we already know, cleanliness issue is one of the biggest problem, and the comfortness of a place is also closely related to the cleanliness and adequete facilities, therefore we hope that this application can help tourist attractions to improve their cleanliness level and facilities. In Addition, the review feature on this application can also be used by user to give an impression and share their experiences after visiting the tourist attractions.
