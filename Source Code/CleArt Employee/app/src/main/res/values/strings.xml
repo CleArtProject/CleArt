@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CleArtEmployee</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="username">Username/Email</string>
+    <string name="todo">TODO</string>
+</resources>
