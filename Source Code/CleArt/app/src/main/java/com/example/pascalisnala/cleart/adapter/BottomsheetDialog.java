@@ -35,10 +35,10 @@ public class BottomsheetDialog extends BottomSheetDialogFragment {
         final int reportid = getArguments().getInt("reportid",-1);
 
         View v = inflater.inflate(R.layout.dialog_layout,container,false);
-        viewDialog = v.findViewById(R.id.viewDialog);
-        pgDialog = v.findViewById(R.id.pgDialog);
-        viewDialog.setVisibility(View.VISIBLE);
-        pgDialog.setVisibility(View.VISIBLE);
+//        viewDialog = v.findViewById(R.id.viewDialog);
+//        pgDialog = v.findViewById(R.id.pgDialog);
+//        viewDialog.setVisibility(View.VISIBLE);
+//        pgDialog.setVisibility(View.VISIBLE);
 
         tvUsernameDialog = v.findViewById(R.id.tvUsernameDialog);
         tvStatusDialog = v.findViewById(R.id.tvStatusDialog);
@@ -55,8 +55,8 @@ public class BottomsheetDialog extends BottomSheetDialogFragment {
         call.enqueue(new Callback<Report>() {
             @Override
             public void onResponse(Call<Report> call, Response<Report> response) {
-                viewDialog.setVisibility(View.GONE);
-                pgDialog.setVisibility(View.GONE);
+//                viewDialog.setVisibility(View.GONE);
+//                pgDialog.setVisibility(View.GONE);
                 Report report = response.body();
                 tvUsernameDialog.setText(report.getUser().getUsername());
                 tvStatusDialog.setText("Status: "+report.getStatus());
